@@ -1,0 +1,61 @@
+body {
+font-family: Arial;
+background: linear-gradient(135deg, #667eea, #764ba2);
+text-align: center;
+color: white;
+}
+h1 {
+margin: 20px;
+}
+.input-box {
+margin: 20px;
+}
+input, button {
+padding: 10px;
+margin: 5px;
+border-radius: 5px;
+border: none;
+}
+#taskContainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.task {
+width: 220px;
+padding: 15px;
+margin: 10px;
+border-radius: 10px;
+position: relative;
+cursor: grab;
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+transform: rotate(-2deg);
+}
+.yellow { background: #bb5c77; }
+.green { background: #bbf7d0; }
+.blue { background: #bfdbfe; }
+.pink { background: #fbcfe8; }
+.task.completed {
+text-decoration: line-through;
+opacity: 0.7;
+}
+.actions button {
+margin: 3px;
+padding: 5px;
+cursor: pointer;
+}
+.time {
+font-size: 12px;
+}
+.color-picker span {
+display: inline-block;
+width: 15px;
+height: 15px;
+margin: 3px;
+border-radius: 50%;
+cursor: pointer;
+}
+.yellow-btn { background: #fff475; }
+.green-btn { background: #bbf7d0; }
+.blue-btn { background: #bfdbfe; }
+.pink-btn { background: #fbcfe8; }
